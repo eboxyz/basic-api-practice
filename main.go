@@ -25,8 +25,6 @@ func main() {
 	if err != nil {
 		fmt.Println(err)
 	}
-	res := json.NewDecoder(resp.Body)
-	fmt.Println(res)
 	response := json.NewDecoder(resp.Body).Decode(&user)
 	fmt.Println(response)
 	fmt.Println(user)
