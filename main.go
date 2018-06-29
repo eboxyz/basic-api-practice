@@ -32,7 +32,7 @@ func main() {
 	fmt.Println(user)
 	fmt.Println(user.ID)
 
-	// alteernate way of reading the response, if it's not in JSON format
+	// alternate way of reading the response, if it's not in JSON format
 	// response, err := ioutil.ReadAll(resp.Body)
 	// resp.Body.Close()
 	// if err != nil {
